@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1335240861549250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4582027302999424}
+  - component: {fileID: 95667556658543668}
+  - component: {fileID: 54254410439775306}
+  - component: {fileID: 136354065202498506}
+  - component: {fileID: 114184109802307032}
+  - component: {fileID: 114760315664831016}
+  - component: {fileID: 114866829562793852}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4582027302999424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335240861549250}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: -4.275, z: 0}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!95 &95667556658543668
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335240861549250}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 5f4067af37c25fb49a9f5600e1075848, type: 3}
+  m_Controller: {fileID: 9100000, guid: 88e22b38af47eda4b9ca91b87f3d1e1f, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: '
+
+    Transform ''LeftToeBase'' has been deleted
+
+    Transform
+    ''LeftFoot'' has been deleted
+
+    Transform ''LeftLeg'' has been deleted
+
+    Transform
+    ''LeftUpLeg'' has been deleted
+
+    Transform ''RightToeBase'' has been deleted
+
+    Transform
+    ''RightFoot'' has been deleted
+
+    Transform ''RightLeg'' has been deleted
+
+    Transform
+    ''RightUpLeg'' has been deleted
+
+    Transform ''LeftHandIndex3'' has been deleted
+
+    Transform
+    ''LeftHandIndex2'' has been deleted
+
+    Transform ''LeftHandIndex1'' has been
+    deleted
+
+    Transform ''LeftHandMiddle3'' has been deleted
+
+    Transform ''LeftHandMiddle2''
+    has been deleted
+
+    Transform ''LeftHandMiddle1'' has been deleted
+
+    Transform
+    ''LeftHandPinky3'' has been deleted
+
+    Transform ''LeftHandPinky2'' has been
+    deleted
+
+    Transform ''LeftHandPinky1'' has been deleted
+
+    Transform ''LeftHandRing3''
+    has been deleted
+
+    Transform ''LeftHandRing2'' has been deleted
+
+    Transform
+    ''LeftHandRing1'' has been deleted
+
+    Transform ''LeftHandThumb3'' has been
+    deleted
+
+    Transform ''LeftHandThumb2'' has been deleted
+
+    Transform ''LeftHandThumb1''
+    has been deleted
+
+    Transform ''LeftHand'' has been deleted
+
+    Transform
+    ''LeftForeArm'' has been deleted
+
+    Transform ''LeftArm'' has been deleted
+
+    Transform
+    ''LeftShoulder'' has been deleted
+
+    Transform ''LeftEye'' has been deleted
+
+    Transform
+    ''RightEye'' has been deleted
+
+    Transform ''Head'' has been deleted
+
+    Transform
+    ''Neck'' has been deleted
+
+    Transform ''RightHandIndex3'' has been deleted
+
+    Transform
+    ''RightHandIndex2'' has been deleted
+
+    Transform ''RightHandIndex1'' has been
+    deleted
+
+    Transform ''RightHandMiddle3'' has been deleted
+
+    Transform ''RightHandMiddle2''
+    has been deleted
+
+    Transform ''RightHandMiddle1'' has been deleted
+
+    Transform
+    ''RightHandPinky3'' has been deleted
+
+    Transform ''RightHandPinky2'' has been
+    deleted
+
+    Transform ''RightHandPinky1'' has been deleted
+
+    Transform ''RightHandRing3''
+    has been deleted
+
+    Transform ''RightHandRing2'' has been deleted
+
+    Transform
+    ''RightHandRing1'' has been deleted
+
+    Transform ''RightHandThumb3'' has been
+    deleted
+
+    Transform ''RightHandThumb2'' has been deleted
+
+    Transform ''RightHandThumb1''
+    has been deleted
+
+    Transform ''RightHand'' has been deleted
+
+    Transform
+    ''RightForeArm'' has been deleted
+
+    Transform ''RightArm'' has been deleted
+
+    Transform
+    ''RightShoulder'' has been deleted
+
+    Transform ''Spine2'' has been deleted
+
+    Transform
+    ''Spine1'' has been deleted
+
+    Transform ''Spine'' has been deleted
+
+    Transform
+    ''Hips'' has been deleted'
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!54 &54254410439775306
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335240861549250}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 124
+  m_CollisionDetection: 0
+--- !u!136 &136354065202498506
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335240861549250}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.22
+  m_Height: 1.93
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.935, z: 0}
+--- !u!114 &114184109802307032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335240861549250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f5c286013f23c459a2b248678f700e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnGrace: 3
+  fireballHeightOffset: 3
+  fireballDelay: 0.25
+  fireball: {fileID: 1900030428613948, guid: 411d69bb9f6089a44a6341bca7fe31b7, type: 3}
+--- !u!114 &114760315664831016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335240861549250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d5da13d941efb49a44c2373cda4fd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114866829562793852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335240861549250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac8ea76398468b47a1e376e1620fd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
